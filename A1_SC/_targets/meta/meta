@@ -1,0 +1,19 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|d9b22e1dcd9ff28c|||||||||||||||
+analyse_movies|function|8c8631b16ceadca6|||||||||||||||
+clean_movies|function|355dd9608b05bea9|||||||||||||||
+clean_mpg|function|9cbad166eb5edd71|||||||||||||||
+fit_lm|function|8ca1f2df5c62f55e|||||||||||||||
+get_best_movies|function|c8247c66ac831903|||||||||||||||
+get_table|function|f18fef6d4d9e1090|||||||||||||||
+movies_analyse|stem|7f4c96a6cc5a5ff0|3d7a62352a493819|18ec5c01086ca01b|1944058741||t19799.7092207525s|7065d75c03fa771d|27493|rds|local|vector|||0.04|Expected 4 pieces. Missing pieces filled with NA in 1903 rows 1, 2, 3, 4, 5,6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, ....|
+movies_best_rating|stem|67abd23a95c0bde6|0a2bd4787d0a76c1|d3e4a42688c79a26|-1978301685||t19799.7092211802s|df0cc31bc7d09395|559|rds|local|vector|||0.03||
+movies_clean|stem|920368bd01ef5a89|a97db3069af36aef|18280a6c02757386|1258346229||t19799.6743852963s|1fa4378c9b488f98|7235|rds|local|vector|||0.08||
+movies_file|stem|dd656fb87e7d026f|f648f7be256f814a|ef46db3751d8e999|-487212977|raw-data/movies.xlsx|t19794.1577047952s|8b557187f8be1a5c|193759|file|local|vector|||0.54||
+mpg_clean|stem|c37c31ee47a666cc|6b3a1e9ee7c453e2|b322b2109ae5ed22|1044330524||t19795.5027024328s|e5ecb9637a311588|732|rds|local|vector|||0.25||
+mpg_file|stem|ed6b2a71c884269c|77cb5dfdb98ffcb4|ef46db3751d8e999|-959890347|raw-data/mpg.csv|t19794.132340199s|0f86b27312eddf2c|13216|file|local|vector|||0.53||
+mpg_lm|stem|38207739f346dd10|c85b0003102b1dc7|3945c7a65691adb2|-145092502||t19795.5027037045s|4f64d3669d7ff9cc|5826|rds|local|vector|||0||
+mpg_scatter|stem|06551508526e794f|0f2b93ad1bf5e02c|87ca2bd09003345b|-1882126112||t19795.5027035347s|fcb8231d98757f7c|110845|rds|local|vector|||0.03||
+mpg_tab|stem|956cefb6f4c5464d|95edc3b19b9d512e|1d2bbe45cea10d43|-1724830480||t19795.5027041566s|5fd201b75fb3e7a7|9676|rds|local|vector|||0.03||
+plot_scatter|function|6f3c7756b856bdce|||||||||||||||
+readme|stem|8de383a4b1b580fb|ff2d15732a049f75|d2f7e2c51d11b92f|980901812|readme.html*readme.qmd|t19800.1909786287s|b1d5d28118d389fd|881774|file|local|vector|||3.71||

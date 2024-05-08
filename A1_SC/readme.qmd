@@ -1,0 +1,49 @@
+---
+title: README
+author: Zhuoya Zhao
+date: today
+date-format: long
+format: 
+  html: 
+    self-contained: true
+    df-print: tibble
+editor_options: 
+  chunk_output_type: console
+execute: 
+  warning: false
+  message: false
+---
+
+## Get libs
+
+```{r, setup}
+pacman::p_load(tidyverse, targets)
+```
+
+## Clean the dataset
+Load the data set; 
+select columns of interest (`genres`, `average_rating`, `christmas`); 
+remove rows with all or some missing values; 
+select rows `christmas` movies.
+```{r}
+tar_load(movies_clean)
+head(movies_clean)
+```
+
+## Analyse the dataset
+Because a movie might have multiple genres, we split them into different variable columns. Based on this, we reconstruct the dataset with two variable columns: one variable column for single genre and the other one for corresponding rating.
+```{r}
+tar_load(movies_analyse)
+movies_analyse
+```
+
+## Calculate the average rating for each single genre and write into the table
+```{r}
+tar_load(movies_best_rating)
+movies_best_rating
+```
+
+## Get the genre `Reality-TV` which gives the best rating for Christmas movies
+```{r}
+head(movies_best_rating,1)
+```
