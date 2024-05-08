@@ -1,4 +1,5 @@
 clean_movies = function(movies_file) {
+  # this is a function for cleaning the movies dataset
   movies = read_xlsx(path = "raw-data/movies.xlsx", na ="")
 
   movies = movies |>
